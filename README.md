@@ -8,8 +8,7 @@ When you deploy this project on any application server (Tomcat, Gassfish) it'll 
 
 This application is configured to accept REST API requests at "/webapi" URL. This is the only way to access the REST API of this project
 
-A servlet is configured in web.xml file called "Jersey Web Application". The servlet class comes bundled with the Jersey Jars. This servlet is mapped with the "/webapi/*" URL pattern.
+A servlet is configured in web.xml file called "Jersey Web Application". The servlet class comes bundled with the Jersey Jars. This servlet is mapped with the "/webapi/*" URL pattern. The overall concept is just mapping jersey servlet to "/webapi/*"
 
 So any request that comes to this application that has "/webapi" as the prefix, this servlet handles that URL
 
-The overall concept is just mapping jersey servlet to "/webapi/*"
