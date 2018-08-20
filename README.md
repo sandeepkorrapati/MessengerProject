@@ -1,4 +1,4 @@
-# REST API's
+# Messenger
 
 Developed REST API's where users can create profiles and post messages and comment for that message
 
